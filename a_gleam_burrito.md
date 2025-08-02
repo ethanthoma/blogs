@@ -1,3 +1,9 @@
+---
+title: "A Gleam Burrito"
+date: "2025-04-18T13:16:30-07:00"
+slug: "a_gleam_burrito"
+---
+
 # A Gleam Burrito
 
 > tldr; I made Nix builder for Gleam CLIs targeting Erlang

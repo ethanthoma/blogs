@@ -1,3 +1,9 @@
+---
+title: "LLMs don't make sense"
+date: "2024-10-24T09:56:36-07:00"
+slug: "llms_dont_make_sense"
+---
+
 # LLMs don't make sense
 
 > tldr; AGI won't come from just bigger text-based LLMs. Progress demands a

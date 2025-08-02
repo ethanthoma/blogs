@@ -1,3 +1,9 @@
+---
+title: "Abusing Use"
+date: "2025-06-08T21:15:47-07:00"
+slug: "abusing_use"
+---
+
 # Abusing Use
 
 > tldr; a simple guide on abusing gleam's `use` keyword to make useful,

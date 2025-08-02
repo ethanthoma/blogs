@@ -1,3 +1,9 @@
+---
+title: "Odin Errdefer"
+date: "2024-09-18T21:14:25-07:00"
+slug: "odin_errdefer"
+---
+
 # Odin Errdefer
 
 I love [Zig](https://ziglang.org/). The language is simple and clear. Sure it
