@@ -25,8 +25,7 @@ the path of creating a Nix builder for Gleam projects.
 ## Distributing a Gleam CLI
 
 > "In reality, you have no users."
->
-> — Me, explaining why I did this to someone
+> <cite>Me, explaining why I did this to someone</cite>
 
 This post is about a [little CLI tool](https://github.com/STASER-Lab/cgq) I wrote for my lab 
 to create group quizzes on [Canvas](https://www.instructure.com/canvas?utm_source=google&utm_medium=organic&utm_campaign=canvas-redirect).
@@ -44,8 +43,7 @@ work with the Erlang runtime.
 ## Erlang and Distribution
 
 > "I wish there was native lang like Gleam. Why is [Flix](https://flix.dev/) on the JVM a;skldfja"
->
-> — Also me, but wiser
+> <cite>Also me, but wiser</cite>
 
 For those like me who know next to nothing about Erlang, here are some details 
 to be aware of: Erlang is both a language and a runtime (BEAM). This makes it 
@@ -60,8 +58,7 @@ want to install Erlang?
 ## Enter Burrito: Wrapping Erlang with Zig
 
 > "A box for a program that runs in a box..."
->
-> — Still me
+> <cite>Still me</cite>
 
 [Burrito](https://github.com/burrito-elixir/burrito) is a fantastic tool that 
 lets you wrap Elixir CLI applications using [Zig](https://ziglang.org/). It 
@@ -79,8 +76,7 @@ Easy.
 ## The Mix(Gleam) Solution
 
 > "A second build tool has joined the program."
->
-> — Could be anyone
+> <cite>Could be anyone</cite>
 
 The solution to our problem is [MixGleam](https://github.com/gleam-lang/mix_gleam), 
 which is an Elixir archive that lets Mix handle Gleam dependencies and compilation.
@@ -102,8 +98,7 @@ downside was dealing with Mix and its boilerplate.
 ## Nixifying Burrito
 
 > "I can now compile my cli tool via mix via nix. All thats left is burrito. WTF am I doing..."
->
-> — Me to [Vitor](https://x.com/akiyama_vitor)
+> <cite>Me to [Vitor](https://x.com/akiyama_vitor)</cite>
 
 One of Nix's strengths is its ability to build pretty much any language in a 
 reproducible manner. I realized I could have Nix generate all the boilerplate 
@@ -135,8 +130,7 @@ Mix documentation and tweaking flags to get it working properly. But in the end,
 ## Little Usage Example
 
 > "Nix users do this to themselves."
->
-> — Someone from Twitter
+> <cite>Someone from Twitter</cite>
 
 To use the builder in your project is straightforward:
 
