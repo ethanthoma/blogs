@@ -1,7 +1,7 @@
 ---
-title: "LLMs don't make sense"
-date: "2024-10-24T09:56:36-07:00"
-slug: "llms_dont_make_sense"
+title: LLMs don't make sense
+date: '2024-10-24T09:56:36-07:00'
+slug: llms_dont_make_sense
 ---
 
 # LLMs don't make sense
@@ -49,16 +49,6 @@ The language modeling part of a Large Language Model is a sub-task.
 A necassary condition for AGI, sure, but hardly sufficient.
 
 I think, we lost sight of this.
-
-We have clear evidence that exceptional language modeling doesn't require AGI.
-Current models like Claude and ChatGPT generate text with such fluency that
-their abilities can *feel* tantalizingly close to true understanding—an illusion
-of approaching AGI asymptotically. Indeed, research on scaling large
-conversational agents (like the work on models such as Meena) often highlights
-how more scale leads to better performance on language tasks. And it's true:
-continued scaling will undoubtedly yield even more refined language models.
-However, this path doesn't lead to AGI. It leads to an ever-increasing compute
-bill for what is, at its core, an exceptionally sophisticated token guesser.
 
 We have clear evidence that language modeling doesn't need AGI. Models like
 Claude and ChatGPT and so on model language exceptionally well. In fact, it
