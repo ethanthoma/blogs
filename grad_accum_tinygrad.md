@@ -1,6 +1,8 @@
-title: "Grad accum in Tinygrad" \
-date: "2025-09-26T23:10:00-07:00" \
+---
+title: "Grad accum in Tinygrad"
+date: "2025-09-26T23:10:00-07:00"
 slug: "grad_accum_tinygrad"
+---
 
 # Grad Accumulation in Tinygrad
 
