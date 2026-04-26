@@ -44,11 +44,7 @@ limited view.
 >
 > — Ernst Toller
 
-The language modeling part of a Large Language Model is a sub-task.
-
-A necassary condition for AGI, sure, but hardly sufficient.
-
-I think, we lost sight of this.
+The language modeling part of a Large Language Model is a sub-task, a necessary condition for AGI, sure, but hardly sufficient. I think we've lost sight of this. We've been polishing one cog and mistaking its spin for the machine moving forward.
 
 We have clear evidence that language modeling doesn't need AGI. Models like
 Claude and ChatGPT and so on model language exceptionally well. In fact, it
