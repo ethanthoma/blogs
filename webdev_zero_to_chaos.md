@@ -1,7 +1,7 @@
 ---
-title: "WTF is Webdev"
-date: "2024-09-12T12:21:20-07:00"
-slug: "webdev_zero_to_chaos"
+title: WTF is Webdev
+date: '2024-09-12T12:21:20-07:00'
+slug: webdev_zero_to_chaos
 ---
 
 # WTF is Webdev

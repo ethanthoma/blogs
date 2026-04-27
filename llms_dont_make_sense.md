@@ -39,10 +39,13 @@ Billy. We're just getting a taller vantage on the same limitations.
 ## Language Modeling is a Sub-task
 
 > We were all of us cogs in a great machine which sometimes rolled forward,
-> nobody knew where, sometimes backwards, nobody knew why.
-> <cite>Ernst Toller</cite>
+> nobody knew where, sometimes backwards, nobody knew why. <cite>Ernst
+> Toller</cite>
 
-The language modeling part of a Large Language Model is a sub-task, a necessary condition for AGI, sure, but hardly sufficient. I think we've lost sight of this. We've been polishing one cog and mistaking its spin for the machine moving forward.
+The language modeling part of a Large Language Model is a sub-task, a necessary
+condition for AGI, sure, but hardly sufficient. I think we've lost sight of
+this. We've been polishing one cog and mistaking its spin for the machine moving
+forward.
 
 We have clear evidence that language modeling doesn't need AGI. Models like
 Claude and ChatGPT and so on model language exceptionally well. In fact, it
@@ -101,8 +104,7 @@ and weigh what they deem important. Which naturally leads me to...
 
 ## Values and Reinforcement Learning
 
-> "I used to rule the world..."
-> <cite>Chris Martin</cite>
+> "I used to rule the world..." <cite>Chris Martin</cite>
 
 Reinforcement learning (RL) was king for much of 2000s. Before AlexNet's big run
 and the eventual transformer hegemony, RL was the coolest kid on the block. And
@@ -143,8 +145,7 @@ many more researchers will explore.
 
 > "Go to, let us build us a city and a tower, whose top may reach unto heaven;
 > and let us make us a name, lest we be scattered abroad upon the face of the
-> whole earth."
-> <cite>The Book of Genesis</cite>
+> whole earth." <cite>The Book of Genesis</cite>
 
 Transformers have one flaw. They're not the perfect model (Okay, maybe there may
 be more than one flaw deep down). I feel like people forget what transformers

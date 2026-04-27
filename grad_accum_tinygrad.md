@@ -1,18 +1,18 @@
 ---
-title: "Grad accum in Tinygrad"
-date: "2025-09-26T23:10:00-07:00"
-slug: "grad_accum_tinygrad"
+title: Grad accum in Tinygrad
+date: '2025-09-26T23:10:00-07:00'
+slug: grad_accum_tinygrad
 ---
 
 # Grad Accumulation in Tinygrad
 
 > tldr; realize your tensors or memory go OOM
 
-Gradient accumulation let's you perform larger batch sizes during training when
-memory constrained. The idea is simple: you run micro-batches, accumulate the
-gradients, and then perform your backwards pass.
+Gradient accumulation lets you perform larger batch sizes during training when
+you're memory-constrained. The idea is simple: you run micro-batches, accumulate
+the gradients, and then perform your backward pass.
 
-In PyTorch, people typically spit out something like so:
+In PyTorch, people typically spit out something like this:
 
 ```python
 accum: int
@@ -27,8 +27,8 @@ for i, (x, y) in enumerate(loader, 1):
 
 This impl is, often, wrong for cross-entropy with padding.
 
-I say often because unless your micro-batch size is 1 or every sample is equal
-token length, then this average (divide by `accum`) of averages (`loss_fn`
+I say often because unless your micro-batch size is 1 or every sample is of
+equal token length, then this average (divide by `accum`) of averages (`loss_fn`
 _probably_ returns average loss of micro-batch) is almost never equal to the
 actual average.
 
@@ -50,15 +50,15 @@ for i, (x, y) in enumerate(loader, 1):
         optimizer.zero_grad(set_to_none=True)
 ```
 
-In Tinygrad, if you do something similar it'll OOM. Which sucks since grad
+In Tinygrad, if you do something similar, it'll OOM. Which sucks since grad
 accumulation is literally meant to fix that issue.
 
-The problem is that Tinygrad is lazy. This means, each loop your code builds up
-a compute graph for all the forward passes. Only when you actually realize the
-model, after accumulating every grad step, does it try to compute the grads
+The problem is that Tinygrad is lazy. This means each loop your code builds up a
+compute graph for all the forward passes. Only when you actually realize the
+model, after accumulating every grad step, does it try to compute the grads,
 effectively making the grad accum logic do nothing.
 
-To solve this, all you have to do is just realize the tensors:
+To solve this, all you have to do is realize the tensors:
 
 ```python
 accum: int

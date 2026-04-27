@@ -1,7 +1,7 @@
 ---
-title: "Abusing Use"
-date: "2025-06-08T21:15:47-07:00"
-slug: "abusing_use"
+title: Abusing Use
+date: '2025-06-08T21:15:47-07:00'
+slug: abusing_use
 ---
 
 # Abusing Use

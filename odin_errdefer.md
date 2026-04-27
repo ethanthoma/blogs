@@ -1,7 +1,7 @@
 ---
-title: "Odin Errdefer"
-date: "2024-09-18T21:14:25-07:00"
-slug: "odin_errdefer"
+title: Odin Errdefer
+date: '2024-09-18T21:14:25-07:00'
+slug: odin_errdefer
 ---
 
 # Odin Errdefer
